@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JNTUK Tree Details</title>
+    <style>
+        .nav-header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .outer-section {
+            width: 35%;
+            margin: 0 auto;
+            border: 1px solid gray;
+            border-radius: 10px;
+            box-shadow: 5px 2px 2px rgba(169, 169, 169, 0.155);
+            padding: 2rem;
+        }
+        .outer-section nav{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .jntu-logo img {
+            width: 10rem;
+            height: auto;
+        }
+        .jntu-name {
+            font-weight: bold;
+            font-size: 1.3rem;
+            width: 70%;
+            color: rgba(255, 16, 16, 0.879);
+        }
+        .details {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            width: 50%;
+            color: black;
+        }
+        .tree-img img{
+            border-radius: 15px;
+            width: 70%;
+            margin-left: 50%;
+            transform: translateX(-50%);
+            justify-content: center;
+            margin-bottom: 0.5rem;
+        }
+        .tree-details {
+            margin-top: 1.2rem;
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+            width: 70%;
+            margin: 0 auto;
+            font-size: 1.2rem;
+        }
+        .heading {
+            font-size: 1.4rem;
+        }
+        @media screen and (max-width: 1080px) and (min-width: 870px) {
+            .outer-section {
+                width: 80%;
+            }
+        }
+        @media screen and (max-width: 870px) {
+            .outer-section {
+                width: 98%;
+                padding: 0.5rem 0.1rem;
+            }
+            .details { 
+                width: 100%;
+            }
+            .detail-value{
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="outer-section">
+        <nav>
+            <div class="nav-header">
+                <div class="jntu-logo">
+                    <img src="Jntuk-logo.png" alt="JNTUK">
+                </div>
+            </div>
+        </nav>
+        <div class="detials">
+            <div class="tree-img">
+                <img src="tree-logo.jpg" alt="Tree">
+            </div>
+            <div class="tree-details">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td class="deatail-heading"><strong class="heading">Name</strong> </td>
+                            <td class="detail-value">:   Mango Tree</td>
+                        </tr>
+                        <tr class="active-row">
+                            <td class="deatail-heading"><strong class="heading">Area</strong></td>
+                            <td class="detail-value">:   2 sq.feet</td>
+                        </tr>
+                        <tr>
+                            <td class="deatail-heading"><strong class="heading">Age</strong></td>
+                            <td class="detail-value">:   20</td>
+                        </tr>
+                        <tr class="active-row">
+                            <td class="deatail-heading"><strong class="heading">Height</strong></td>
+                            <td class="detail-value">:   8 sq.feet</td>
+                        </tr>
+                        <tr class="active-row">
+                            <td class="deatail-heading"><strong class="heading">Latitude</strong></td>
+                            <td class="detail-value">:   12.03</td>
+                        </tr>
+                        <tr>
+                            <td class="deatail-heading"><strong class="heading">Longitude</strong></td>
+                            <td class="detail-value">:   13.03</td>
+                        </tr>
+                        <tr class="active-row">
+                            <td><strong class="heading">Plantation Year</strong></td>
+                            <td class="detail-value">:   2012</td>
+                        </tr>
+                        <tr>
+                            <td><strong class="heading">Oxygen Released</strong></td>
+                            <td class="detail-value">:   ...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="description">
+            <h2>Description: </h2>
+            <p></p>
+        </div>
+    </section>
+</body>
+</html>

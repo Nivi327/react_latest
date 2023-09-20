@@ -1,0 +1,30 @@
+body {
+    background-color: #1d1d1d;
+    color: white;
+}
+
+.carousel-inner {
+    height: 100vh;
+}
+
+.schedule {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.schedule-list {
+    list-style-type: none;
+    margin-top: 2rem;
+}
+
+.schedule h2 {
+    text-align: center;
+}
+
+.schedule-list li {
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+    width: 80%;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid rgba(133, 170, 255, 0.503);
+}
